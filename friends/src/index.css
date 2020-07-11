@@ -43,6 +43,7 @@ input[type=text] {
   align-content: center;
   width: 500px;
 }
+
 .friends_group {
   display: flex;
   margin: 0 auto;

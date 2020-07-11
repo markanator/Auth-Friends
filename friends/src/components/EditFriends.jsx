@@ -22,7 +22,7 @@ const EditFriends =({modal,closeModal,getData})=> {
     const handleSubmit = (e) => {
             e.preventDefault();
             axiosWithAuth()
-            .post("/friends",newFriend)
+            .post("/friends", newFriend)
             .then(res => {
                 console.log(res);
                 // setFriendsArray(res.data);
